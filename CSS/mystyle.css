@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    background-image: url("../images/investor.jpeg");
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+h1{
+    color: red
+
+}
+
+.paragraph-rule{
+    /*border-style:double;*/
+    position: relative;
+    z-index: 200 !important;
+    border: 5px dotted blue;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin: 10px 20px 40px 100px;
+    /*margin: 10px 20px 40px 100px; üst, sağ, sol, alt*/
+    padding-top: 20px;
+    padding: 10px;
+    padding: 350px;
+    margin:auto;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span-rule {
+    position: relative;
+    z-index: -1;
+    color: blueviolet;
+    border: 1px solid yellowgreen;
+    padding: 1px;
+    background-color: azure;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: inline-block;
+}
+
+.img-rule{
+    position: relative;
+    z-index: 100;
+}
